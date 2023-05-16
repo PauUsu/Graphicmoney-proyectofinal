@@ -1,0 +1,163 @@
+.icons {
+    color: #1d2345;
+    margin-right:0.5em;
+    margin-left: 0.5em;
+    font-size: 1.5em;
+}
+
+.container-nav-father {
+    display: flex;
+    justify-content: space-between;
+    height: 4em;
+    align-items: center;
+    box-shadow: 1px 2px 12px rgba(10, 116, 121, 0.4);
+}
+
+.container-nav-son {
+    display: flex;
+    gap: 2em;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+body {
+    margin: 0;
+    font-family:  "Playfair Display, serif";
+    font-size: 1em;
+    background-color: #ecf7f8;
+    color: #1d2345;
+
+}
+
+.navbar-estilos{
+    justify-content: space-between;
+    margin-left: 3%;
+    margin-right: 2%;
+    height: 7em;
+    align-items: center;
+    color: #ec0909;
+
+}
+
+a {
+    margin-right: 2em;
+}
+
+.carousel-caption {
+    position: absolute;
+    right: 15%;
+    bottom: 7.25rem;
+    left: 15%;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    color: #fff;
+    text-align: center;
+}
+
+.textInfo{
+    color: #79DAE8;
+    text-shadow: 0.1em 0.1em 0.2em black;
+}
+.titulo-seccion{
+    text-align: center;
+    font-size: 2.5em;
+    color:#1d2345;
+    text-shadow: 0.1em 0.1em 0.2em #1d2345;
+}
+.card {
+    margin: 5%;
+    margin-left: 10%;
+    width: 322px;
+}
+.card img {
+    height: 320px;
+    width: 320px;
+}
+
+.container-nosotros-father {
+    text-align: center;
+    margin-top: 5%;
+    font-size: 2em;
+    color: #1d2345;
+
+}
+.container-nosotros-son {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 3%;
+    text-align: center;
+
+}
+
+/* Michell - Footer y formulario */
+.formulario {
+    background-color: #d3f0f9;
+    text-align: center;
+    font-family: "Playfair Display, serif";
+    align-items: center;
+    width: 50%;
+    margin-left: 24%;
+    border-radius: 1%;
+    margin-bottom: 50px;
+}  
+  .formulario h2 {
+    margin-bottom: 15px;
+    margin-top: 20px;
+    font-size: 1.8em;
+}
+.formulario i {
+    margin-right: 8px;
+}
+.formulario label {
+    margin-top: 5px;
+}
+.formulario button {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.footer {
+    background-color: #1d2345;
+    padding: 10px 0 40px 0;
+    font-family: "Playfair Display, serif";
+}
+.footer .logo img{
+    position: relative;
+    width: 280px;
+    border-radius: 50%;
+    margin-left: 80px;
+    margin-top: 10px;
+    height: 16em;
+}
+.footer .row .col .contacto i{
+    color: #eef3f7;
+    display: inline-block;
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border: 1px solid #aadff2;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+.footer .row .col .contacto {
+    display:inline-block;
+}
+
+.footer .row .col .contacto h2{
+    color: #f7f6f5;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 50px;
+
+}
+.footer .row .col .contacto h3{
+    color: #f5f6f7;
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 40px;
+    font-size: 20px;
+}
+
