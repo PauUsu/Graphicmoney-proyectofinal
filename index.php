@@ -19,6 +19,9 @@
     include'nosotros.php';
     ?>
     <?php
+    include'servicios.php';
+    ?>
+    <?php
     include'formulario.php';
     ?>
     <?php

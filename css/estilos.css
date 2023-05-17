@@ -4,7 +4,10 @@
     margin-left: 0.5em;
     font-size: 1.5em;
 }
-
+.seccion-navbar {
+    /*position: fixed;
+    display:flex;*/
+}
 .container-nav-father {
     display: flex;
     justify-content: space-between;
@@ -21,7 +24,6 @@
 }
 
 body {
-    margin: 0;
     font-family:  "Playfair Display, serif";
     font-size: 1em;
     background-color: #ecf7f8;
@@ -30,13 +32,14 @@ body {
 }
 
 .navbar-estilos{
+   /* position: fixed;*/
+    display: flex;
     justify-content: space-between;
     margin-left: 3%;
     margin-right: 2%;
     height: 7em;
     align-items: center;
-    color: #ec0909;
-
+    color: #1d2345;
 }
 
 a {
@@ -63,15 +66,17 @@ a {
     font-size: 2.5em;
     color:#1d2345;
     text-shadow: 0.1em 0.1em 0.2em #1d2345;
+    margin-top: 20px;
 }
 .card {
-    margin: 5%;
-    margin-left: 10%;
-    width: 322px;
+    margin-left: 15%;
+    margin-bottom: 5%;
+    margin-top: 10%;
+    width: 302px;
 }
 .card img {
-    height: 320px;
-    width: 320px;
+    height: 220px;
+    width: 300px;
 }
 
 .container-nosotros-father {
@@ -89,6 +94,42 @@ a {
     margin-top: 3%;
     text-align: center;
 
+}
+.servicios{
+    margin-left: 10%;
+    margin-right: 10% ;
+}
+.container-servicios-father {
+    text-align:left;
+    margin-top: 5%;
+    font-size: 2em;
+    color: #19a1f6;
+
+}
+.container-servicios-son {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 3%;
+    text-align:left;
+}
+.container-servicios-father2 {
+    text-align:right;
+    margin-top: 5%;
+    font-size: 2em;
+    color: #19a1f6;
+
+}
+.container-servicios-son2 {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 3%;
+    text-align:right;
+}
+.img-servicios img {
+    width: 350px;
+    height: 250px;
+    display: flex;
+    margin-top: 5%;
 }
 
 /* Michell - Footer y formulario */
@@ -129,7 +170,6 @@ a {
     border-radius: 50%;
     margin-left: 80px;
     margin-top: 10px;
-    height: 16em;
 }
 .footer .row .col .contacto i{
     color: #eef3f7;

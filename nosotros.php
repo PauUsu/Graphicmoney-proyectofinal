@@ -1,7 +1,6 @@
 <div class="row">
     <p class="titulo-seccion" id="quienessomos">- Quienes somos -</p>
-    <div class="col-4">
-
+    <div class="col">
     <div class="card">
         <img src="img/equipo.jpg" class="card-img-top" alt="...">
             <div class="container-nosotros">
@@ -13,7 +12,7 @@
     </div>
     </div>
 
-    <div class="col-4">
+    <div class="col">
     <div class="card">
         <img src="img/mision.png" class="card-img-top" alt="...">
             <div class="container-nosotros">
@@ -26,7 +25,7 @@
     </div>
     </div>
 
-    <div class="col-4">
+    <div class="col">
     <div class="card">
         <img src="img/vision.jpeg" class="card-img-top" alt="...">
             <div class="container-nosotros">
