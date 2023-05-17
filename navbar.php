@@ -15,11 +15,11 @@
     </div>
     <div class="container-nav-son">
       <div>
-        <i class="fa-solid fa-envelope fa-beat icons"></i>
+        <a href=""><i class="fa-solid fa-envelope fa-beat icons"></i></a>
         <span>graphicmoney@gmail.com</span>
       </div>
       <div>
-        <i class="fa-solid fa-phone fa-beat icons"></i>
+        <a href=""><i class="fa-solid fa-phone fa-beat icons"></i></a>
         <span>604 - 5239686</span>
       </div>
     </div>
@@ -34,9 +34,9 @@
     <a href=#quienessomos> Quienes Somos </a>
     <a href=#servicios> Servicios </a>
     <a href=#contactanos> Contáctenos </a>
-    <i class="fa-brands fa-facebook icons"></i>
-    <i class="fa-brands fa-instagram icons"></i>
-    <i class="fa-brands fa-whatsapp icons"></i>
+    <a href=""><i class="fa-brands fa-facebook icons"></i></a>
+    <a href=""><i class="fa-brands fa-instagram icons"></i></a> 
+    <a href=""><i class="fa-brands fa-whatsapp icons"></i></a> 
     </div>
   </nav>
 </div>

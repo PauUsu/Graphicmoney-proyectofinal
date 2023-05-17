@@ -16,7 +16,7 @@
             echo'error al guardar';
         }
     }
-    ?>
+?>
 
 <div class="formulario" id="contactanos">
             <form method="post">

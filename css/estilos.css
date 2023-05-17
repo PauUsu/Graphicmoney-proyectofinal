@@ -1,6 +1,6 @@
 .icons {
     color: #1d2345;
-    margin-right:0.5em;
+    margin-right: 0.5em;
     margin-left: 0.5em;
     font-size: 1.5em;
 }
@@ -145,7 +145,6 @@ a {
 }  
   .formulario h2 {
     margin-bottom: 15px;
-    margin-top: 20px;
     font-size: 1.8em;
 }
 .formulario i {
@@ -166,8 +165,8 @@ a {
 }
 .footer .logo img{
     position: relative;
-    width: 280px;
-    border-radius: 50%;
+    width: 17em;
+    height: 6em;
     margin-left: 80px;
     margin-top: 10px;
 }
