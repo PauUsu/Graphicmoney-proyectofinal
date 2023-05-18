@@ -1,14 +1,30 @@
-.icons {
+body { /*tipo de letra,tamaño,fondo,color letra 1em significan 16 pixeles, son relativos dependiendo
+    de la pantalla que tengamos*/
+    font-family:  "Playfair Display, serif";
+    font-size: 1em;
+    background-color: #ecf7f8;
+    color: #1d2345;
+    overflow-x: hidden;
+
+}
+.icons { /*estilos para todos los iconos*/
     color: #1d2345;
     margin-right: 0.5em;
     margin-left: 0.5em;
     font-size: 1.5em;
 }
-.seccion-navbar {
-    /*position: fixed;
-    display:flex;*/
+
+.seccion-navbar { /*position fixed es para dejar fijo en la pagina, z index para acercar mas algun elemento
+    hacia el usuario */
+    position: fixed;
+    z-index: 2;
+    background: #ecf7f8;
+    width: 100%;
 }
-.container-nav-father {
+
+.container-nav-father { /*Div padre del navbar, display flex coloca los div en una sola fila y justify
+    para ajustar los elementos en el espacio de la pantalla, height alto , items me afecta solo lo que 
+    esta adentro del Div y box-shadow es el sombreado*/
     display: flex;
     justify-content: space-between;
     height: 4em;
@@ -16,19 +32,11 @@
     box-shadow: 1px 2px 12px rgba(10, 116, 121, 0.4);
 }
 
-.container-nav-son {
+.container-nav-son { /*el gap espacio que hay entre las filas y/o columnas*/
     display: flex;
     gap: 2em;
     margin-left: 3%;
     margin-right: 3%;
-}
-
-body {
-    font-family:  "Playfair Display, serif";
-    font-size: 1em;
-    background-color: #ecf7f8;
-    color: #1d2345;
-
 }
 
 .navbar-estilos{
@@ -46,7 +54,13 @@ a {
     margin-right: 2em;
 }
 
-.carousel-caption {
+.carousel {
+    padding-top: 10em;
+    padding-bottom: 1em;
+}
+
+.carousel-caption { /*position absolute acomoda los elementos dentro de un contenedor, bottom espacio abajo
+    el padding ampliar dependiendo de lo que necesite*/
     position: absolute;
     right: 15%;
     bottom: 7.25rem;
@@ -57,10 +71,11 @@ a {
     text-align: center;
 }
 
-.textInfo{
+.textInfo{ /*text-shadow sombre la letra*/
     color: #79DAE8;
     text-shadow: 0.1em 0.1em 0.2em black;
 }
+
 .titulo-seccion{
     text-align: center;
     font-size: 2.5em;
@@ -68,12 +83,14 @@ a {
     text-shadow: 0.1em 0.1em 0.2em #1d2345;
     margin-top: 20px;
 }
+
 .card {
     margin-left: 15%;
     margin-bottom: 5%;
     margin-top: 10%;
     width: 302px;
 }
+
 .card img {
     height: 220px;
     width: 300px;
@@ -99,6 +116,7 @@ a {
     margin-left: 10%;
     margin-right: 10% ;
 }
+
 .container-servicios-father {
     text-align:left;
     margin-top: 5%;
@@ -112,6 +130,7 @@ a {
     margin-top: 3%;
     text-align:left;
 }
+
 .container-servicios-father2 {
     text-align:right;
     margin-top: 5%;
@@ -125,6 +144,7 @@ a {
     margin-top: 3%;
     text-align:right;
 }
+
 .img-servicios img {
     width: 350px;
     height: 250px;
@@ -143,16 +163,20 @@ a {
     border-radius: 1%;
     margin-bottom: 50px;
 }  
+
   .formulario h2 {
     margin-bottom: 15px;
     font-size: 1.8em;
 }
+
 .formulario i {
     margin-right: 8px;
 }
+
 .formulario label {
     margin-top: 5px;
 }
+
 .formulario button {
     margin-top: 10px;
     margin-bottom: 10px;
@@ -163,6 +187,7 @@ a {
     padding: 10px 0 40px 0;
     font-family: "Playfair Display, serif";
 }
+
 .footer .logo img{
     position: relative;
     width: 17em;
@@ -170,6 +195,7 @@ a {
     margin-left: 80px;
     margin-top: 10px;
 }
+
 .footer .row .col .contacto i{
     color: #eef3f7;
     display: inline-block;
@@ -181,6 +207,7 @@ a {
     border-radius: 50%;
     margin-bottom: 10px;
 }
+
 .footer .row .col .contacto {
     display:inline-block;
 }
