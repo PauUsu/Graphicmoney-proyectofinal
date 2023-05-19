@@ -11,9 +11,9 @@
         $insert=mysqli_query($con, "INSERT INTO servicios(nombres,apellidos,empresa,sexo,telefono,email,direccion) 
         VALUES ('$nombres', '$apellidos','$empresa','$sexo','$telefono','$email','$direccion')");
         if($insert){
-            echo'dato guardado con exito';
+          
         }else{
-            echo'error al guardar';
+          
         }
     }
 ?>
