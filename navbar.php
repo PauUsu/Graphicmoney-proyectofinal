@@ -30,7 +30,7 @@
     <img src="img/logo4.png" alt="Image" style="width: 17em;height: 6em;">
     </div>
     <div>
-    <a href="#navbar"> Inicio </a>
+    <a href="#header-carousel"> Inicio </a>
     <a href=#quienessomos> Quienes Somos </a>
     <a href=#servicios> Servicios </a>
     <a href=#contactanos> Contáctenos </a>

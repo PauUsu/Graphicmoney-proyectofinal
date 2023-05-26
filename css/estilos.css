@@ -1,11 +1,93 @@
+:root { /* El root es para globalizar valores que vamos a utilizar dentro de todo el archivo*/
+    --white: #FFFFFF;
+    --black: #000000;
+    --very-light-pink: #C7C7C7;
+    --text-input-field: #F7F7F7;
+    --hospital-green: #ACD9B2;
+    --blue: #0aa1dd;
+    --sm: 14px;
+    --md: 16px;
+    --lg: 18px;
+}
 body { /*tipo de letra,tamaño,fondo,color letra 1em significan 16 pixeles, son relativos dependiendo
     de la pantalla que tengamos*/
-    font-family:  "Playfair Display, serif";
     font-size: 1em;
-    background-color: #ecf7f8;
+    background-color: var(--white);
     color: #1d2345;
     overflow-x: hidden;
-
+    font-family: 'Quicksand', sans-serif;
+}
+.login{ /* Grid toma una serie de elementos del div principal y los alinea por filas y place-items me centra
+    lo del grid */
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+}
+.form-container{ /* grid-template-rows me ayuda a dividir las filas*/
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    width: 300px;
+}
+.logo-login{ /* justify-self center nos ayuda a justificar un cuadro dentro de su contenedor*/
+    width: 18em;
+    margin-bottom: 48px;
+    justify-self: center;
+}
+.form{/* Flex-direction es lo mismo que el grid*/
+    display: flex;
+    flex-direction: column;
+}
+.form a{/* con el text decoration none desaparece el formato predeterminado en azul y con linea inferior*/
+    color: var(--blue);
+    font-size: var(--sm);
+    text-align: center;
+    text-decoration: none;
+    margin-bottom: 52px;
+}
+.label{ /*bold es para negrilla*/
+    font-size: var(--sm);
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+.input{ /*none ocultar border radius para redondear las puntas // cursor pointer para cuando tenga el boton en flecha
+    aparezca la mano*/
+    background-color: var(--text-input-field);
+    border: none;
+    border-radius: 8px;
+    height: 30px;
+    font-size: var(--md);
+    padding: 6px;
+    margin-bottom: 12px;  
+}
+.input-user{
+    margin-bottom: 22px;
+}
+.primary-button{
+    background-color: var(--blue);
+    border-radius: 8px;
+    border: none;
+    color: var(--white);
+    width: 100%;
+    cursor: pointer;
+    font-size: var(--md);
+    font-weight: bold;
+    height: 50px;
+}
+.secondary-button{
+    background-color: var(--white);
+    border-radius: 8px;
+    border: 1px solid var(--blue);
+    color: var(--blue);
+    width: 100%;
+    cursor: pointer;
+    font-size: var(--md);
+    font-weight: bold;
+    height: 50px;
+}
+.login-button{
+    margin-top: 14px;
+    margin-bottom: 30px;
 }
 .icons { /*estilos para todos los iconos*/
     color: #1d2345;
