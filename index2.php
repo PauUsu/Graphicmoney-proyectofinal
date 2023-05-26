@@ -1,4 +1,3 @@
-
 <?php
 include 'conexion.php';
 ?>
@@ -12,24 +11,9 @@ include 'conexion.php';
 </head>
 
 <body>
-<?php
-        include 'navbar.php';
-        ?>
-        <?php
-        include 'carousel.php';         
-        ?>
-        <?php
-        include 'nosotros.php';
-        ?>
-        <?php
-        include 'servicios.php';
-        ?>
-        <?php
-        include 'formulario.php';
-        ?>
-        <?php
-        include 'footer.php';
-        ?>
+    <?php
+    include 'login.php';
+    ?>
 </body>
 
 <?php

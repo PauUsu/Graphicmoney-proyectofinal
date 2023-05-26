@@ -11,6 +11,6 @@
             <input type="submit" type="password" value="Iniciar sesión" class="primary-button login-button"></input>
             <a href=""> Olvidé mi contraseña</a>
         </form>
-        <button class="secondary-button signup-button">Registrarme</button>
+        <button class="secondary-button">Registrarme</button>
     </div>
 </div>

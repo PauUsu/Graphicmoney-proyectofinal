@@ -85,6 +85,13 @@ body { /*tipo de letra,tamaño,fondo,color letra 1em significan 16 pixeles, son 
     font-weight: bold;
     height: 50px;
 }
+.tercer-button{
+    background-color: var(--blue);
+    border-radius: 5px;
+    border: 1px solid var(--white);
+    color: var(--white);
+    cursor: pointer;
+}
 .login-button{
     margin-top: 14px;
     margin-bottom: 30px;
@@ -134,6 +141,7 @@ body { /*tipo de letra,tamaño,fondo,color letra 1em significan 16 pixeles, son 
 
 a {
     margin-right: 2em;
+    text-decoration: none;
 }
 
 .carousel {

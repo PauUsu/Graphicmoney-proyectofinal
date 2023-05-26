@@ -34,6 +34,7 @@
     <a href=#quienessomos> Quienes Somos </a>
     <a href=#servicios> Servicios </a>
     <a href=#contactanos> Contáctenos </a>
+    <a href="index2.php"><input type="submit"value="Iniciar sesión" class="tercer-button login-button"></input></a>
     <a href=""><i class="fa-brands fa-facebook icons"></i></a>
     <a href=""><i class="fa-brands fa-instagram icons"></i></a> 
     <a href=""><i class="fa-brands fa-whatsapp icons"></i></a> 
