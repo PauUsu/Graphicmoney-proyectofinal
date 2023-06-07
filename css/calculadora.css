@@ -1,0 +1,109 @@
+:root {
+    /* El root es para globalizar valores que vamos a utilizar dentro de todo el archivo*/
+    --white: #FFFFFF;
+    --black: #000000;
+    --very-light-pink: #C7C7C7;
+    --text-input-field: #F7F7F7;
+    --hospital-green: #ACD9B2;
+    --blue: #0aa1dd;
+    --sm: 14px;
+    --md: 16px;
+    --lg: 18px;
+}
+
+body {
+    /*tipo de letra,tamaño,fondo,color letra 1em significan 16 pixeles, son relativos dependiendo
+        de la pantalla que tengamos*/
+    font-size: 1em;
+    background-color: var(--white);
+    color: #1d2345;
+    overflow-x: hidden;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.container-logo-calculadora {
+    /*gap es para separar elemento de otro de acuerdo a los pixeles o porcentaje*/
+    display: flex;
+    place-content: center;
+    align-items: center;
+    gap: 3%;
+    margin: 3% 20% 0% 20%;
+    border-radius: 1.5em;
+    box-shadow: 0px 0px 12px 0px #0082b2;
+}
+
+.logo-calculadora {
+    width: 20em;
+}
+
+.container-logo-calculadora h1 {
+    color: #476c60;
+}
+
+.secti {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.secti .container-car {
+    /*llamo a secti porque es el padre donde esta mi otra seccion*/
+    width: 60%;
+    height: 27%;
+    border-radius: 1.5em;
+    box-shadow: 0px 0px 12px 0px #0082b2;
+    padding: 1em;
+    margin-top: 3em;
+    display: grid;
+    gap: 1.5em;
+    margin-bottom: 2.5em;
+}
+
+.secti .container-car div:nth-child(1) {
+    display: flex;
+    gap: 1em;
+}
+
+.secti .container-car div:nth-child(1) h6 {
+    border: 1px solid #0082b2;
+    border-radius: 8px;
+    padding: 0.5em;
+    cursor: pointer;
+}
+
+.secti .container-car div:nth-child(2) {
+    border-top: 1px solid #0082b2;
+    border-bottom: 1px solid #0082b2;
+    padding-top: 0.5em;
+}
+
+.secti .container-car div:nth-child(3),
+.secti .container-car div:nth-child(4),
+.secti .container-car div:nth-child(5),
+.secti .container-car div:nth-child(6),
+.secti .container-car div:nth-child(7) {
+    /*grid-template-columns le digo que cree dos columnas y los fr son los tamaños*/
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+    border: 1px solid #0082b2;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    place-content: center;
+    align-items: center;
+    gap: 1em;
+    padding: 1em;
+}
+
+.fourth-button {
+    background-color: var(--blue);
+    border-radius: 5px;
+    border: 1px solid var(--white);
+    color: var(--white);
+    cursor: pointer;
+    padding: 0.5em; 
+}
+.secti .container-car div:nth-child(8){/*las child es el último hijo*/
+    display: flex;
+    justify-content: space-evenly
+}
